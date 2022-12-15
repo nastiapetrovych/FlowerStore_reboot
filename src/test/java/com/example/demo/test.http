@@ -1,0 +1,10 @@
+GET http://localhost:8080/api/v1/users
+
+###
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+
+{
+  "email": "anastasiyapetrovych25@gmail.com",
+  "dob" : "2004-10-25"
+}
